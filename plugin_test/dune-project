@@ -1,0 +1,8 @@
+(lang dune 3.11)
+(using coq 0.8)
+
+(package
+ (name test-plugin)
+ (synopsis "a test plugin")
+ (description "")
+ (depends coq-core))

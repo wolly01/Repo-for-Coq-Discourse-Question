@@ -1,0 +1,1 @@
+let my_message = "hello plugin!"

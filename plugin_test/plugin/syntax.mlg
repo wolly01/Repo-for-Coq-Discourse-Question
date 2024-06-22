@@ -1,0 +1,5 @@
+DECLARE PLUGIN "test-plugin.test_plugin"
+
+VERNAC COMMAND EXTEND CallToC CLASSIFIED AS QUERY
+| [ "Hello" ] -> { Feedback.msg_notice Pp.(str Plugin_code.my_message) }
+END

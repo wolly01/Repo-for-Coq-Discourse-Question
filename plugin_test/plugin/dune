@@ -1,0 +1,6 @@
+(library
+ (name "test_plugin")
+ (public_name "test-plugin.test_plugin")
+ (libraries coq-core.vernac))
+
+ (coq.pp (modules syntax))
